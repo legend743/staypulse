@@ -1,16 +1,48 @@
-# React + Vite
+# StayPulse 🏨✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, responsive hotel discovery and community rating platform built with React and Vite.
 
-Currently, two official plugins are available:
+StayPulse allows travelers to explore curated hotels, view community ratings, and post verified reviews. Built with a modular architecture to support seamless future integrations for room booking, availability checks, and payment gateways.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Current Release (Phase 1 — MVP)
+- **Hotel Discovery Feed:** Browse hotels with high-resolution imagery, pricing previews, location details, and aggregate star ratings.
+- **Verified User Authentication:** Secure authentication flow (JWT/session-ready) to ensure genuine and credible reviews.
+- **Interactive Review System:** Dynamic 5-star rating selector with real-time score aggregation and written review submissions.
+- **Optimistic State Management:** Instant UI updates upon review submission for smooth user experience.
+- **Responsive & Accessible UI:** Mobile-first layout designed with accessible ARIA standards and keyboard navigation.
 
-## Expanding the ESLint configuration
+### Roadmap (Upcoming Phases)
+- [ ] Room reservation and availability calendar
+- [ ] Payment gateway integration (Stripe / Razorpay)
+- [ ] Hotelier partner dashboard to manage listings
+- [ ] Advanced filter & search (price range, amenities, location radius)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [React](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Routing:** [React Router](https://reactrouter.com/)
+- **State/Auth:** React Context API
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18.0.0 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/staypulse.git](https://github.com/your-username/staypulse.git)
+   cd staypulse
