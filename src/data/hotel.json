@@ -1,0 +1,40 @@
+[{
+    "hotelId":1,
+    "hotelName":"Raynott Hotel",
+    "location":"Sandeela,Hardoe"
+},
+{
+    "hotelId":2,
+    "hotelName":"Samup Hotel",
+    "location":"Manikpur,Silwoda"
+},
+{
+    "hotelId":3,
+    "hotelName":"King Hotel",
+    "location":"Cardi,Jyori"
+},
+{
+    "hotelId":4,
+    "hotelName":"Khan Darbar Hotel",
+    "location":"Afime kothi,kanpur"
+},
+{
+    "hotelId":5,
+    "hotelName":"Nawab Sahab Hotel",
+    "location":"Hazratganj,Lucknow"
+},
+{
+    "hotelId":6,
+    "hotelName":"MB Hotel",
+    "location":"IIm,Lucknow"
+},
+{
+    "hotelId":7,
+    "hotelName":"B R Palace",
+    "location":"IIM,Lucknow"
+},
+{
+    "hotelId":8,
+    "hotelName":"Ramdada Hotel",
+    "location":"KanpurHardoi bypass,Hardoe"
+}]
