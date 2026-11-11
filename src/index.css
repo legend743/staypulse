@@ -1,4 +1,44 @@
+
 @import "tailwindcss";
-body{
+
+/* Global body styling */
+body {
   background-color: beige;
+  margin: 0;
+}
+
+/* Horizontal hotel scrolling */
+.hotel-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar by default - Chrome, Edge, Safari */
+.hotel-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Scrollbar thumb hidden by default */
+.hotel-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+}
+
+/* Fade in scrollbar on hover */
+.hotel-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: #9ca3af;
+}
+
+/* Firefox scrollbar */
+.hotel-scroll:hover {
+  scrollbar-width: thin;
+  scrollbar-color: #9ca3af transparent;
+}
+
+/* Scrollbar track */
+.hotel-scroll::-webkit-scrollbar-track {
+  background: transparent;
 }
