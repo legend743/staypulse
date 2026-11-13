@@ -1,13 +1,20 @@
 
 import React from "react";
 import { MapPin, Star } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 function HotelCard({hotel}) {
+  const navigate=useNavigate();
+  const  handleViewDetails=(()=>{
+    navigate("/hoteldetails")
+
+
+  });
   return (
-    <div className="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+    <div className="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300" >
 
       {/* Hotel Image */}
-      <div className="relative">
+      <div className="relative" onClick={handleViewDetails}>
         <img
           // src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
           src={hotel.img}

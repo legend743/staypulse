@@ -8,7 +8,7 @@ function Navbar() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3 cursor-pointer ">
           <BedDouble className="w-8 h-8 text-green-800 drop-shadow-lg"/>
-          <h1 className="text-3xl font-extrabold tracking-widest uppercase">stay<span className="text-green-300" >pulse</span></h1>
+          <h1 className="text-3xl font-extrabold tracking-widest uppercase">stay<span className="text-green-300" >Pulze</span></h1>
         </div>
         
         <div className="flex items-center mx-10 bg-gray-800 rounded-lg border border-gray-700 px-3 focus-within:border-green-400">
